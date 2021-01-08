@@ -8,6 +8,11 @@ Class {
 }
 
 { #category : #accessing }
+Counter class >> count: anInteger [
+	^ self new count: anInteger
+]
+
+{ #category : #accessing }
 Counter >> count [
 	^ count
 ]
